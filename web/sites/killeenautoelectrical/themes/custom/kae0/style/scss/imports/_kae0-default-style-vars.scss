@@ -1,13 +1,6 @@
 @import "kae0_mixins";
 @import "kae0-style-vars";
 
-/* Fonts */
-$light: "Helvetica Neue", Arial, Helvetica !default;
-$reg: "work_sanslight", "exo_2medium_condensed", sans-serif !default;
-$bold: "Helvetica Neue", Arial, Helvetica !default;
-
-$bodyFont: "Helvetica Neue", Arial, Helvetica !default;
-$header: Georgia, Times, serif;
 
 // Media Queries
 
@@ -58,9 +51,6 @@ $primaryColor4: #1A1A1A !default; // almost black
 $primaryColor5: #5A5A5A !default; // nice gray*/
 
 
-$siteTitleColor: rgba($primaryColor1, 1) !default;
-$siteTitleHoverColor: rgba($primaryColor1, 0.85) !default;
-$siteSloganColor: #777 !default;
 
 $taxonomy-term--background: $primaryColor1 !default;
 $taxonomy-term--font-color: $primaryColor3 !default;

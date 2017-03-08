@@ -11,13 +11,13 @@ libraries:
   - kae0/base
   - kae0/OpenSans
   - kae0/WorkSans
-  - kae0/Comfortaa
+  - kae0/HandelGothic
 ckeditor_stylesheets:
   - style/css/kae0.css
   - style/css/base.css
   - css/components/table.css
   - fonts/worksans.css
-  - fonts/comfortaa.css
+  - fonts/handelgothic_regular.css
   - fonts/opensans.css
 regions:
   menu: Menu

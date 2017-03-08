@@ -7,6 +7,7 @@
 /* rgb(219,79,20)*/
 /* rgb(135,47,7)*/
 /* rgb(226,224,201)*/
+/* Fonts */
 /* rgb(0,115,123)*/
 /* rgb(0,65,70)*/
 /* rgb(0,163,182)*/
@@ -36,7 +37,7 @@ body:after {
 }
 
 .nb_fixed-bg {
-  min-height: 85vh;
+  min-height: 35vh;
   background-position: 50% bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,6 +54,15 @@ body:after {
   background: #c00;
 }
 
+.region--header .field--type-text-with-summary {
+  margin: 0;
+}
+
+.region div.node--type-homepage {
+  margin: 1.5em 0 0 0;
+  font-size: 1.5em;
+}
+
 footer.node__meta {
   float: right;
 }
@@ -67,28 +77,24 @@ h2 {
 
 .ui-widget-content {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #1D7459;
+  color: #73ad51;
 }
 
 #ui-id-1 {
   font-family: comfortaaregular, Arial, sans-serif;
-  color: #0062A0;
-}
-
-#ui-id-1::before {
-  content: "pealing.com ";
+  color: #000000;
 }
 
 .ui-widget input {
   width: 280px;
-  color: #0062A0;
+  color: #000000;
 }
 
 .ui-dialog .ui-dialog-buttonpane button {
   width: 100%;
   margin: 0;
   font-family: comfortaaregular, Arial, sans-serif;
-  color: #0062A0;
+  color: #000000;
 }
 
 .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
@@ -318,12 +324,12 @@ h2 {
 
 form#node-blog-form label {
   font-family: comfortaaregular, Arial, sans-serif;
-  color: #0062A0;
+  color: #000000;
 }
 
 form#node-blog-form summary {
   font-family: comfortaaregular, Arial, sans-serif;
-  color: #1D7459;
+  color: #73ad51;
 }
 
 form#node-blog-form .js-form-file {

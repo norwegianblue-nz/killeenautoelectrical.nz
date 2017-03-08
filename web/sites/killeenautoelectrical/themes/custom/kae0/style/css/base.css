@@ -247,6 +247,7 @@ form.comment-comment-node-blog-form label {
 /* rgb(219,79,20)*/
 /* rgb(135,47,7)*/
 /* rgb(226,224,201)*/
+/* Fonts */
 /* rgb(0,115,123)*/
 /* rgb(0,65,70)*/
 /* rgb(0,163,182)*/
@@ -286,7 +287,7 @@ body.toolbar-tray-open.toolbar-vertical.toolbar-fixed {
 
 a {
   text-decoration: none;
-  color: #1d7459;
+  color: #73ad51;
   transition: opacity 0.25s ease-in-out;
   -moz-transition: opacity 0.25s ease-in-out;
   -webkit-transition: opacity 0.25s ease-in-out;
@@ -294,7 +295,7 @@ a {
 a:hover {
   text-decoration: none;
   border-bottom: none;
-  color: rgba(29, 116, 89, 0.85);
+  color: rgba(115, 173, 81, 0.85);
 }
 
 details {
@@ -307,9 +308,9 @@ img {
 }
 
 p, .field--type-text-with-summary {
-  color: #0062a0;
-  font-size: 1em;
-  margin: 0 0 1.2em;
+  color: #73ad51;
+  font-size: 1.5em;
+  margin: 0 0 1.5em 0;
 }
 
 del {
@@ -339,7 +340,7 @@ h2,
   margin: 1.0em 0 0.5em;
   font-weight: inherit;
   font-size: 2.2em;
-  color: #1D7459;
+  color: #73ad51;
   font-family: comfortaaregular, Arial, sans-serif;
 }
 
@@ -400,6 +401,7 @@ img.image-style-avatar {
 /* rgb(219,79,20)*/
 /* rgb(135,47,7)*/
 /* rgb(226,224,201)*/
+/* Fonts */
 /* rgb(0,115,123)*/
 /* rgb(0,65,70)*/
 /* rgb(0,163,182)*/
@@ -622,6 +624,7 @@ header#header-outer-wrapper {
 /* rgb(219,79,20)*/
 /* rgb(135,47,7)*/
 /* rgb(226,224,201)*/
+/* Fonts */
 /* rgb(0,115,123)*/
 /* rgb(0,65,70)*/
 /* rgb(0,163,182)*/
@@ -666,21 +669,31 @@ $primaryColor5: #5A5A5A !default; // nice gray*/
 }
 #site-branding .site-name {
   font-size: 48px;
-  font-weight: bold;
-  letter-spacing: -0.075em;
-  font-family: "Helvetica Neue", Arial, Helvetica;
-  color: #0062a0;
+  font-family: handelgothic_regular;
+  color: #0060c7;
 }
 #site-branding .site-name a {
   transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
   text-decoration: none;
-  color: #0062a0;
-  font-family: comfortaaregular, Arial, sans-serif;
+  color: #0060c7;
 }
 #site-branding .site-name a:hover {
-  color: rgba(0, 98, 160, 0.85);
+  color: rgba(0, 96, 199, 0.85);
+}
+#site-branding .site-name a .site_title0 {
+  text-transform: uppercase;
+  color: #0060c7;
+}
+#site-branding .site-name a .site_title0:hover {
+  color: #0060c7;
+}
+#site-branding .site-name a .site_title1 {
+  color: #73ad51;
+}
+#site-branding .site-name a .site_title1:hover {
+  color: #73ad51;
 }
 #site-branding .site-slogan {
   color: #777;
@@ -720,7 +733,7 @@ $primaryColor5: #5A5A5A !default; // nice gray*/
 }
 
 .scrolled #site-branding #logo img {
-  width: 75px;
+  width: 60px;
 }
 
 /*# sourceMappingURL=base.css.map */

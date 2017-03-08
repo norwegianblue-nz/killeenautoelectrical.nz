@@ -14,14 +14,10 @@ WorkSans:
   css:
     theme:
       fonts/worksans.css: {}
-Comfortaa:
-  omega:
-    allow_enable_disable: true
-    title: 'Comfortaa Font.'
-    description: 'Font Family - Comfortaa'
+HandelGothic:
   css:
     theme:
-      fonts/comfortaa.css: {}
+      fonts/handelgothic_regular.css: {}
 #MuseoSlab:
 #  omega:
 #    allow_enable_disable: true

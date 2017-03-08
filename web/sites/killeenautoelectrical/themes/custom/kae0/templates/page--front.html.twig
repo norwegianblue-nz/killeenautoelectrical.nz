@@ -82,6 +82,7 @@
         {{ page.header }}
       </div>
     </header> <!-- /.section, /#header-->
+    {#  
     <section id="menu-outer-wrapper" class="outer-wrapper clearfix">
       <div id="menu-layout" class="{{ region_classes.menu }} menu-layout inner-wrapper clearfix">
         {% if page.menu %}
@@ -100,6 +101,7 @@
         {% endif %}
       </div>
     </section>
+    #}
     <section id="title-bar-wrapper" class="outer-wrapper clearfix">
       <div id="title-bar-layout" class="{{ region_classes.title-bar }} title-bar-layout inner-wrapper clearfix">
         {% if page.title-bar %}
@@ -153,7 +155,7 @@
     
     {% if page.preface_first %} 
     <section id="preface1-outer-wrapper" class="nb_scrolling outer-wrapper clearfix">
-        <div id="preface-first-layout" class=" {{ region_classes.preface }}preface-first-layout inner-wrapper clearfix">
+        <div id="preface-first-layout" class=" {{ region_classes.preface }} preface-first-layout inner-wrapper clearfix">
             {{ page.preface_first }}
         </div>
     </section> <!-- /#preface-wrapper -->

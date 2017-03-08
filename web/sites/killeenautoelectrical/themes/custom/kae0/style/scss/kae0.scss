@@ -47,7 +47,7 @@
 // }
 
 .nb_fixed-bg {
-    min-height: 85vh;
+    min-height: 35vh;
     background-position: 50% bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,6 +77,17 @@
 	//border-radius: 2px;
 }
 
+// KAE Specifics below here
+.region--header .field--type-text-with-summary {margin: 0;} // remove margin for custom branding block in header
+
+.region div.node--type-homepage {
+    margin: 1.5em 0 0 0;
+    font-size: $generalTextSize;
+} 
+// End KAE specifics
+
+
+// Below here is all from pealing.com and none of it is necessarily reqd.
 footer.node__meta {float:right;}
 h2 {float:left;}
 .node__content{clear:both}
@@ -84,7 +95,6 @@ h2 {float:left;}
 //Pop-up Login Block
 .ui-widget-content {font-family:$defaultBodyFont; color: $primaryColor2;}
 #ui-id-1 {font-family: $defaultHeaderFont; color: $primaryColor1;}
-#ui-id-1::before {content: "pealing.com ";}
 .ui-widget input {width: 280px; color: $primaryColor1;}
 .ui-dialog .ui-dialog-buttonpane button {width: 100%; margin: 0;font-family: $defaultHeaderFont; color: $primaryColor1;}
 .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {margin: 0; padding: 0; width: 100%;}

@@ -59,21 +59,30 @@
   .site-name {
     font-size: 48px;
     //line-height: 36px;
-    font-weight: bold;
-    letter-spacing: -0.075em;
-    font-family: $bodyFont;
-    color: $siteTitleColor;
+    //font-weight: bold;
+    //letter-spacing: -0.075em;
+    font-family: $siteTitleFont;
+    color: $siteTitleColor0;
     
     a {
       @include kae0Transition(all, 0.25s, ease-in-out);
       //opacity: .5;
       text-decoration: none;
-      color: $siteTitleColor;
-      font-family: $defaultHeaderFont;
+      color: $siteTitleColor0;
+      //font-family: $defaultHeaderFont;
       
       &:hover {
         //opacity: 1;
-        color: $siteTitleHoverColor;  
+        color: $siteTitleHoverColor0;  
+      }
+      .site_title0 {
+          text-transform: uppercase;
+          color: $siteTitleColor0;
+          &:hover{color: $siteTitleColor0;}
+      }
+      .site_title1 {
+          color: $siteTitleColor1;
+          &:hover{color: $siteTitleColor1;}
       }
     }
   }
@@ -104,5 +113,5 @@
     }
 }
 .scrolled #site-branding .site-name {font-size: 30px;}
-.scrolled #site-branding #logo img {width:75px;}
+.scrolled #site-branding #logo img {width:60px;}
 

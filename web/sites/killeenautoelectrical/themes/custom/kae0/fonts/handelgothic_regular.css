@@ -1,0 +1,12 @@
+@font-face {
+    font-family:'handelgothic_regular';
+    src: url('handelgothic_regular.eot');
+    src: url('handelgothic_regular.eot?#iefix') format('embedded-opentype'),
+        url('handelgothic_regular.woff2') format('woff2'),
+        url('handelgothic_regular.woff') format('woff'),
+        url('handelgothic_regular.svg#handelgothic_regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: semi-expanded;
+    unicode-range: U+0020-02DC;
+}
