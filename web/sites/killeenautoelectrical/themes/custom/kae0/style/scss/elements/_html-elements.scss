@@ -21,6 +21,8 @@ body {
   line-height: 1.5;
   word-wrap: break-word;
   font-size: 87.5%;
+  background-color: $siteBgColor;
+  color: $siteTextColor;
 
 }
 // change the body spacing for the vertical toolbar from margin to padding
@@ -50,7 +52,7 @@ img {
 }
 
 p , .field--type-text-with-summary {
-  color: rgba($primaryColor2, 1);
+  //color: rgba($primaryColor2, 1);
   font-size:$generalTextSize;
   margin: 0 0 1.5em 0;
 }
