@@ -1,0 +1,10 @@
+uuid: 3e852c94-40bf-4651-a5b0-9b35157b6d48
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.strip
+label: Strip6
+targetEntityType: node
+cache: true

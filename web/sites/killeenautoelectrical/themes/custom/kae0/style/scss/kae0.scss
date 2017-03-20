@@ -47,10 +47,11 @@
 // }
 
 .nb_fixed-bg {
-    min-height: 35vh;
-    background-position: 50% bottom;
+    min-height: 65vh;
+    background-position: 50% top;
     background-repeat: no-repeat;
-    background-size: cover;
+//    background-size: cover;
+    background-size: contain;
     background-color:#333;
 }
 @media all and (min-width: 0px) {.nb_fixed-bg{}}

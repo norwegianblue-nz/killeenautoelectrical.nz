@@ -1,0 +1,20 @@
+uuid: 96fab212-fe74-47cb-b1a8-54d41d4e3d93
+langcode: en
+status: false
+dependencies:
+  theme:
+    - krtkkilleen
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: krtkkilleen_page_title
+theme: krtkkilleen
+region: '-1'
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: b70fda08-7e3d-4d94-b9b2-adb043b18da8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: HomePage
+type: homepage
+description: 'The Home Page. <br /> There should only be one of these'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

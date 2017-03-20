@@ -1,0 +1,22 @@
+uuid: cff2af97-583c-4cfd-b004-318815921f75
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - killeen0
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: killeen0_content
+theme: killeen0
+region: '-1'
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

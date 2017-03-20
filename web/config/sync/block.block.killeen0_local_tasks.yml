@@ -1,0 +1,22 @@
+uuid: e0354107-0f30-46be-9959-1af1a5ff94ce
+langcode: en
+status: true
+dependencies:
+  theme:
+    - killeen0
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: killeen0_local_tasks
+theme: killeen0
+region: preface_first
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

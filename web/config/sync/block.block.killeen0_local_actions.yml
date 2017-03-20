@@ -1,0 +1,20 @@
+uuid: b70b0e0b-f078-4150-aa22-c0ac0880d735
+langcode: en
+status: false
+dependencies:
+  theme:
+    - killeen0
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: killeen0_local_actions
+theme: killeen0
+region: '-1'
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

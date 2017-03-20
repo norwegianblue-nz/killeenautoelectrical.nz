@@ -1,0 +1,20 @@
+uuid: 0aa2d8db-8023-4a5a-8ff8-fef8001eed82
+langcode: en
+status: false
+dependencies:
+  theme:
+    - krtkkilleen
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: krtkkilleen_local_actions
+theme: krtkkilleen
+region: '-1'
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

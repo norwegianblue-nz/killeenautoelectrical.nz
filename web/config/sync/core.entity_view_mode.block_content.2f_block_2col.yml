@@ -1,0 +1,10 @@
+uuid: 61b5db6e-89c4-47df-8021-33dff783c57b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.2f_block_2col
+label: 2f-Block-2col
+targetEntityType: block_content
+cache: true

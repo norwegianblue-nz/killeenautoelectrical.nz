@@ -1,0 +1,21 @@
+uuid: 036f51b2-9dca-4f07-a8e6-e8d69d9097e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_stripe01
+    - node.type.homepage
+  module:
+    - text
+id: node.homepage.field_content_stripe01
+field_name: field_content_stripe01
+entity_type: node
+bundle: homepage
+label: Content_Stripe01
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

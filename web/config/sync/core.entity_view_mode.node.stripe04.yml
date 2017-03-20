@@ -1,0 +1,10 @@
+uuid: e3558469-8c3d-415e-a95f-8743cd62647c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.stripe04
+label: Stripe04
+targetEntityType: node
+cache: true

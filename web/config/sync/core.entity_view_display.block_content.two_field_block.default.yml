@@ -1,0 +1,49 @@
+uuid: 4a12c522-cb3e-429b-915f-49918c5f7b3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.two_field_block
+    - field.field.block_content.two_field_block.field_2f_block_field1
+    - field.field.block_content.two_field_block.field_2f_block_field2
+  module:
+    - ds
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      path: modules/contrib/ds
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes: {  }
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      ds_content:
+        - field_2f_block_field1
+        - field_2f_block_field2
+id: block_content.two_field_block.default
+targetEntityType: block_content
+bundle: two_field_block
+mode: default
+content:
+  field_2f_block_field1:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_2f_block_field2:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 9e463e99-b56c-4175-b79a-330eb5c535cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.two_field_block
+    - field.storage.block_content.field_2f_block_field2
+  module:
+    - text
+id: block_content.two_field_block.field_2f_block_field2
+field_name: field_2f_block_field2
+entity_type: block_content
+bundle: two_field_block
+label: 2F-Block_field2
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

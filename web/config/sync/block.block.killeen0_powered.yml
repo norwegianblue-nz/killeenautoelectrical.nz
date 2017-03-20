@@ -1,0 +1,22 @@
+uuid: 4d0103d7-a7e7-4631-bedc-dfccf3d67c20
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - killeen0
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: killeen0_powered
+theme: killeen0
+region: '-1'
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

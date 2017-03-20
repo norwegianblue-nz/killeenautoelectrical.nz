@@ -1,0 +1,59 @@
+uuid: 28c47c36-54b3-477a-8932-908cd7ccd460
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.srtipe
+    - field.field.node.homepage.field_bg_image
+    - field.field.node.homepage.field_content_stripe01
+    - field.field.node.homepage.field_content_stripe02
+    - field.field.node.homepage.field_content_stripe03
+    - field.field.node.homepage.field_content_stripe04
+    - field.field.node.homepage.field_content_stripe05
+    - field.field.node.homepage.field_image_stripe04
+    - node.type.homepage
+  module:
+    - ds
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      path: modules/contrib/ds
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - field_content_stripe05
+id: node.homepage.srtipe
+targetEntityType: node
+bundle: homepage
+mode: srtipe
+content:
+  ajax_form_entity_edit_link:
+    weight: 100
+  field_content_stripe05:
+    weight: 111
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+hidden:
+  field_bg_image: true
+  field_content_stripe01: true
+  field_content_stripe02: true
+  field_content_stripe03: true
+  field_content_stripe04: true
+  field_image_stripe04: true
+  links: true

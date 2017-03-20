@@ -1,0 +1,22 @@
+uuid: 80e2e1bf-2ad7-4cb7-9654-91671a825e60
+langcode: en
+status: true
+dependencies:
+  theme:
+    - krtkkilleen
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: krtkkilleen_local_tasks
+theme: krtkkilleen
+region: preface_first
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

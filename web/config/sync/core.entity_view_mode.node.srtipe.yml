@@ -1,0 +1,10 @@
+uuid: 7725b57c-80b4-4820-8836-f08868ecdfaf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.srtipe
+label: Srtipe5
+targetEntityType: node
+cache: true

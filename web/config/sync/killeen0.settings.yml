@@ -1,0 +1,70 @@
+variables:
+  colors:
+    primaryColor1: 3A3A3A
+    primaryColor2: 5A5A5A
+    primaryColor3: CCCCCC
+    primaryColor4: 1A1A1A
+    primaryColor5: 9A9A9A
+    mainMenuBgColor: 9A9A9A
+    mainMenuFontColor: 1A1A1A
+    mainMenuBorderColor: 1A1A1A
+    buttonBgColor: 9A9A9A
+    buttonFontColor: 1A1A1A
+    buttonBorderColor: 1A1A1A
+  fonts:
+    defaultHeaderFont: georgia
+    defaultBodyFont: helvetica
+features:
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+logo:
+  use_default: true
+  path: ''
+favicon:
+  use_default: true
+  path: ''
+omega_toggle_intro: 0
+enable_backups: 0
+force_subtheme_creation: 0
+block_demo_mode: 0
+screen_demo_indicator: 0
+default_layout: primary
+home_layout: front
+enable_omegags_layout: 1
+layouts: {  }
+breakpoint_group_primary: killeen0.standard
+breakpoint_group_front: killeen0.standard
+edit_this_layout: front
+node_type_article_layout: primary
+node_type_page_layout: primary
+taxonomy_tags_layout: primary
+_core:
+  default_config_hash: 9NJSYe39uwdfo4OQsjIMNtxHdwuaasS8qs8v6yrITow
+compile_scss: 0
+show_compile_warning: 0
+enable_omega_badge: 0
+styles:
+  killeen0/OpenSans: 1
+  killeen0/WorkSans: 1
+  killeen0/Exo: 1
+  killeen0/MuseoSlab: 1
+  killeen0/GoudyStM: 1
+  killeen0/GoudyStM-Italic: 1
+  killeen0/Google_Oxygen300: 1
+  killeen0/killeen0: 1
+  killeen0/killeen0_base: 1
+  killeen0/killeen0_admin: 1
+  killeen0/killeen0_html_elements: 1
+  killeen0/killeen0_branding: 1
+  killeen0/killeen0_breadcrumbs: 1
+  killeen0/killeen0_main_menus: 1
+  killeen0/killeen0_messages: 1
+  killeen0/killeen0_pagers: 1
+  killeen0/killeen0_tabs: 1
+  killeen0/killeen0_taxonomy_terms: 1
+  killeen0/killeen0_forms: 1
+layout-config:
+  non_omegags_info: ''
+node_type_homepage_layout: front

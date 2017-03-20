@@ -1,0 +1,55 @@
+uuid: cde6957e-ba64-417b-bdd0-c02f6c51ccc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.stripe
+    - field.field.node.homepage.field_bg_image
+    - field.field.node.homepage.field_content_stripe01
+    - field.field.node.homepage.field_content_stripe02
+    - field.field.node.homepage.field_content_stripe03
+    - field.field.node.homepage.field_content_stripe04
+    - field.field.node.homepage.field_image_stripe04
+    - node.type.homepage
+  module:
+    - ds
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      path: modules/contrib/ds
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - field_content_stripe02
+id: node.homepage.stripe
+targetEntityType: node
+bundle: homepage
+mode: stripe
+content:
+  field_content_stripe02:
+    type: text_default
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_bg_image: true
+  field_content_stripe01: true
+  field_content_stripe03: true
+  field_content_stripe04: true
+  field_image_stripe04: true
+  links: true

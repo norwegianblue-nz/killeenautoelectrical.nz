@@ -1,0 +1,23 @@
+uuid: a43bb57a-d0d8-4600-b1da-2177f813bb3f
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homepage.field_bg_image
+    - field.field.node.homepage.field_content_stripe04
+    - field.field.node.homepage.field_image_stripe04
+    - node.type.homepage
+  module:
+    - user
+id: node.homepage.teaser
+targetEntityType: node
+bundle: homepage
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_bg_image: true
+  field_content_stripe04: true
+  field_image_stripe04: true

@@ -1,0 +1,49 @@
+uuid: a341252e-dba1-4fe0-8e57-8b9aa2e41955
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.homepage.field_bg_image
+    - field.field.node.homepage.field_content_stripe01
+    - field.field.node.homepage.field_content_stripe02
+    - field.field.node.homepage.field_content_stripe03
+    - field.field.node.homepage.field_content_stripe04
+    - field.field.node.homepage.field_content_stripe05
+    - field.field.node.homepage.field_image_stripe04
+    - node.type.homepage
+  module:
+    - ds
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      path: modules/contrib/ds
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions: {  }
+id: node.homepage.full
+targetEntityType: node
+bundle: homepage
+mode: full
+content: {  }
+hidden:
+  field_bg_image: true
+  field_content_stripe01: true
+  field_content_stripe02: true
+  field_content_stripe03: true
+  field_content_stripe04: true
+  field_content_stripe05: true
+  field_image_stripe04: true
+  links: true

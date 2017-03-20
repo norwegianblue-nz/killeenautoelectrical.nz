@@ -1,0 +1,16 @@
+uuid: de910e88-6507-4b64-8b48-50b53c8cb63a
+langcode: en
+status: true
+dependencies: {  }
+id: websiteeditor
+label: WebsiteEditor
+weight: 3
+is_admin: null
+permissions:
+  - 'access site-wide contact form'
+  - 'access contextual links'
+  - 'use text format basic_html'
+  - 'edit any homepage content'
+  - 'access in-place editing'
+  - 'search content'
+  - 'use text format full_html'

@@ -1,0 +1,6 @@
+uuid: 18a26608-bedd-4d36-8992-ec543cad4535
+langcode: en
+status: true
+dependencies: {  }
+id: content_display
+label: content_display

@@ -1,0 +1,38 @@
+uuid: 21cf3d54-a7e8-44ee-895c-733164db0eb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_contentpic
+    - paragraphs.paragraphs_type.content_display
+  module:
+    - image
+id: paragraph.content_display.field_contentpic
+field_name: field_contentpic
+entity_type: paragraph
+bundle: content_display
+label: ContentPic
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

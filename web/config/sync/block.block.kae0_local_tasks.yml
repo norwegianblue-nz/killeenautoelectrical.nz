@@ -1,0 +1,22 @@
+uuid: 82a358b7-8200-4f09-b5c3-b6f5349c0255
+langcode: en
+status: true
+dependencies:
+  theme:
+    - kae0
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: kae0_local_tasks
+theme: kae0
+region: preface_second
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

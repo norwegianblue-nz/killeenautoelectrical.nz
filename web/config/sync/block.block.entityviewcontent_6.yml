@@ -1,0 +1,23 @@
+uuid: 0b9998ed-0af9-4396-bfd3-f982b3dc876c
+langcode: en
+status: false
+dependencies:
+  module:
+    - ctools
+  theme:
+    - kae0
+id: entityviewcontent_6
+theme: kae0
+region: '-1'
+weight: 0
+provider: null
+plugin: 'entity_view:node'
+settings:
+  id: 'entity_view:node'
+  label: 'Stripe 03'
+  provider: ctools
+  label_display: '0'
+  view_mode: stripe03
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility: {  }

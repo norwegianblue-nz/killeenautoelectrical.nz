@@ -1,0 +1,20 @@
+uuid: 527f7335-abca-4b8a-9375-7125e8a87518
+langcode: en
+status: false
+dependencies:
+  theme:
+    - kae0
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: kae0_local_actions
+theme: kae0
+region: '-1'
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

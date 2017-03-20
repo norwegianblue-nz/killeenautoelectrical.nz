@@ -1,0 +1,25 @@
+uuid: 88ffb4e7-5ca1-4215-9e42-ae1103688cb2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - krtkkilleen
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: krtkkilleen_branding
+theme: krtkkilleen
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: 638f591a-37ff-42bd-823c-964121cab70a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.front_page_content_para
+label: 'Front Page Content Para'
+targetEntityType: paragraph
+cache: true

@@ -1,0 +1,20 @@
+uuid: a06d0922-9cdb-4abe-a6d2-7a5fcb8ece47
+langcode: en
+status: false
+dependencies:
+  theme:
+    - kae0
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: kae0_page_title
+theme: kae0
+region: '-1'
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

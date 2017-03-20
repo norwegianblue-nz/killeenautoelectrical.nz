@@ -1,0 +1,104 @@
+uuid: 84795e6b-ae24-495a-b81d-75c7968f00fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.strip
+    - field.field.node.homepage.field_bg_image
+    - field.field.node.homepage.field_content_stripe01
+    - field.field.node.homepage.field_content_stripe02
+    - field.field.node.homepage.field_content_stripe03
+    - field.field.node.homepage.field_content_stripe04
+    - field.field.node.homepage.field_content_stripe05
+    - field.field.node.homepage.field_image_stripe04
+    - node.type.homepage
+  module:
+    - ds
+    - image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      path: modules/contrib/ds
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - links
+        - field_bg_image
+        - field_content_stripe04
+        - field_image_stripe04
+        - field_content_stripe01
+        - field_content_stripe02
+        - field_content_stripe03
+        - field_content_stripe05
+id: node.homepage.strip
+targetEntityType: node
+bundle: homepage
+mode: strip
+content:
+  ajax_form_entity_edit_link:
+    weight: 100
+  field_bg_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_content_stripe01:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_content_stripe02:
+    weight: 109
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_content_stripe03:
+    weight: 110
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_content_stripe04:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_content_stripe05:
+    weight: 111
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_image_stripe04:
+    weight: 107
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

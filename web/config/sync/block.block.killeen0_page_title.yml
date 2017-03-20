@@ -1,0 +1,20 @@
+uuid: dead6a36-c0cc-475e-b2c0-343702383adf
+langcode: en
+status: false
+dependencies:
+  theme:
+    - killeen0
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: killeen0_page_title
+theme: killeen0
+region: '-1'
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

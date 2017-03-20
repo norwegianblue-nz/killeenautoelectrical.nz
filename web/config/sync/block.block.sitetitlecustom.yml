@@ -1,0 +1,25 @@
+uuid: b1248b18-fff2-4af2-b002-e95288cca9f4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:83dca4ff-79e0-440e-89aa-74bb93489a45'
+  module:
+    - block_content
+  theme:
+    - kae0
+id: sitetitlecustom
+theme: kae0
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:83dca4ff-79e0-440e-89aa-74bb93489a45'
+settings:
+  id: 'block_content:83dca4ff-79e0-440e-89aa-74bb93489a45'
+  label: 'Site Title - Custom'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

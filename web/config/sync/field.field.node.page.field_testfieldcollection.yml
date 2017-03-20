@@ -1,0 +1,22 @@
+uuid: 5f801aac-f5fc-4cf2-b9c1-4bbc0c1d725c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testfieldcollection
+    - node.type.page
+  module:
+    - field_collection
+id: node.page.field_testfieldcollection
+field_name: field_testfieldcollection
+entity_type: node
+bundle: page
+label: TestFieldCollection
+description: ''
+required: false
+translatable: false
+default_value:
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

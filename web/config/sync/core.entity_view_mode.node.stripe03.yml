@@ -1,0 +1,10 @@
+uuid: 9d90ac46-1f37-4ee1-bb17-709e5aa3ab75
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.stripe03
+label: Stripe03
+targetEntityType: node
+cache: true

@@ -1,0 +1,8 @@
+uuid: ba18c033-a199-412d-a4e1-32108c76919c
+langcode: en
+status: true
+dependencies: {  }
+id: two_field_block
+label: 'Two Field Block'
+revision: 0
+description: "A block with two fields.\r\nThis allows variaty in display"

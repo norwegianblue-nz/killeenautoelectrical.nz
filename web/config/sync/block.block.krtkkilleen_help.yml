@@ -1,0 +1,22 @@
+uuid: 744fd221-f304-4ebb-801e-28f172ed670d
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - krtkkilleen
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: krtkkilleen_help
+theme: krtkkilleen
+region: '-1'
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

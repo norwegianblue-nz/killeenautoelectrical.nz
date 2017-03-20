@@ -1,0 +1,23 @@
+uuid: 92083e47-5c7b-42ab-a1fb-63232f2f5cb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+  theme:
+    - kae0
+id: entityviewcontent_8
+theme: kae0
+region: preface_third
+weight: -8
+provider: null
+plugin: 'entity_view:node'
+settings:
+  id: 'entity_view:node'
+  label: Strip5
+  provider: ctools
+  label_display: '0'
+  view_mode: srtipe
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility: {  }

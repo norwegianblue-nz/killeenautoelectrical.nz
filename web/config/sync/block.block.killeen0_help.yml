@@ -1,0 +1,22 @@
+uuid: 294d81b5-3265-46fc-a390-4b9529d57ae9
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - killeen0
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: killeen0_help
+theme: killeen0
+region: '-1'
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

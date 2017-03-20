@@ -1,0 +1,25 @@
+uuid: 23795eff-5c12-43ec-b124-bd3a92054d07
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:two_field_block:e431354e-685b-46fb-b0b0-3bc7a83f6fb5'
+  module:
+    - block_content
+  theme:
+    - kae0
+id: findus
+theme: kae0
+region: preface_third
+weight: -7
+provider: null
+plugin: 'block_content:e431354e-685b-46fb-b0b0-3bc7a83f6fb5'
+settings:
+  id: 'block_content:e431354e-685b-46fb-b0b0-3bc7a83f6fb5'
+  label: 'Find Us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: 2f_block_2col
+visibility: {  }

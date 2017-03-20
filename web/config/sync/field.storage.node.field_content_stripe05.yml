@@ -1,0 +1,19 @@
+uuid: 17c1888e-6a31-458a-945a-b6d02714fefb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_content_stripe05
+field_name: field_content_stripe05
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

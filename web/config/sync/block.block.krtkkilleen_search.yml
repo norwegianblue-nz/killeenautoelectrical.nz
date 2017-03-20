@@ -1,0 +1,22 @@
+uuid: 0589f670-37a5-494a-b1f1-1af6feec15b9
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - krtkkilleen
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: krtkkilleen_search
+theme: krtkkilleen
+region: '-1'
+weight: -2
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

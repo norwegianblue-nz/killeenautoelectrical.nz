@@ -1,0 +1,22 @@
+uuid: 882c54b6-9dd2-4946-b7e3-8558c0368956
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - krtkkilleen
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: krtkkilleen_breadcrumbs
+theme: krtkkilleen
+region: '-1'
+weight: -8
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

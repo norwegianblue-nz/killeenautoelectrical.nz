@@ -1,0 +1,30 @@
+uuid: 5eedb53d-41ea-4795-be61-8f9b0c4f3cf2
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+  theme:
+    - krtkkilleen
+id: krtkkilleen_entityviewcontent_5
+theme: krtkkilleen
+region: preface_fourth
+weight: 0
+provider: null
+plugin: 'entity_view:node'
+settings:
+  id: 'entity_view:node'
+  label: 'Stripe 04'
+  provider: ctools
+  label_display: '0'
+  view_mode: stripe04
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      homepage: homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

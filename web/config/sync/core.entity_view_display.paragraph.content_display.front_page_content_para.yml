@@ -1,0 +1,56 @@
+uuid: 1eed6224-a4dd-4211-b0a8-7ddae104f1d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.front_page_content_para
+    - field.field.paragraph.content_display.field_content
+    - field.field.paragraph.content_display.field_contentpic
+    - paragraphs.paragraphs_type.content_display
+    - responsive_image.styles.narrow
+  module:
+    - ds
+    - responsive_image
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      path: modules/contrib/ds
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes: {  }
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      ds_content:
+        - field_content
+        - field_contentpic
+id: paragraph.content_display.front_page_content_para
+targetEntityType: paragraph
+bundle: content_display
+mode: front_page_content_para
+content:
+  field_content:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_contentpic:
+    weight: 1
+    label: hidden
+    settings:
+      responsive_image_style: narrow
+      image_link: ''
+    third_party_settings: {  }
+    type: responsive_image
+hidden:
+  created: true
+  uid: true
