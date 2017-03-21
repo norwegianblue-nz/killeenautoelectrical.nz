@@ -50,10 +50,10 @@
     min-height: 65vh;
     background-position: 50% top;
     background-repeat: no-repeat;
-//    background-size: cover;
-    background-size: contain;
+    background-size: cover;
     background-color:#333;
 }
+#nb_fixed-bg0 {background-size: contain;} // Top image contain to show as much as poss of the "card""
 @media all and (min-width: 0px) {.nb_fixed-bg{}}
 @media all and (min-width: 480px) and (max-width: 767px) {.nb_fixed-bg{}}       
 @media all and (min-width: 768px) /*and (max-width: 1023px)*/ {

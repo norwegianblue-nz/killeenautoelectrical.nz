@@ -37,12 +37,12 @@
 .region-header {
   padding: 0;
 }
-#header-outer-wrapper {background-color: $siteBgColor;z-index:10;width: 100%; box-shadow: -1px 0 3px 1px rgba(0, 0, 0, 0.3333);}
+#header-outer-wrapper {background-color: $siteHeaderColor;z-index:10;width: 100%; box-shadow: -1px 0 3px 1px rgba(0, 0, 0, 0.3333);}
 @media all and (min-width: 560px) {
     header#header-outer-wrapper {position: fixed;}
     section#btns-outer-wrapper {margin-top: 140px;}
 }
-.scrolled  #header-outer-wrapper {background-color: rgba($siteBgColor, 0.6);}
+.scrolled  #header-outer-wrapper {background-color: $siteHeaderScrolledColor;}
  
 
 // Header - split into two for branding and user menu

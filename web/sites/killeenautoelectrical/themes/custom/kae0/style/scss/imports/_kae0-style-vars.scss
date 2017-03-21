@@ -2,10 +2,12 @@
   
 // Basic Color Variables 
 $primaryColor1: #000000;
-$primaryColor2: #73ad51;
-$primaryColor3: #0060c7;
+//$primaryColor2: #73ad51;
+$primaryColor2: #80cc28;
+//$primaryColor3: #0060c7;
+$primaryColor3: #66aad6;
 $primaryColor4: #FFFFFF;
-$primaryColor5: #9A9A9A;
+$primaryColor5: #0060c7;
 $mainMenuBgColor: #9A9A9A;
 $mainMenuFontColor: #1A1A1A;
 $mainMenuBorderColor: #1A1A1A;
@@ -18,8 +20,10 @@ $siteTitleHoverColor0: rgba($primaryColor3, 0.85) !default;
 $siteTitleColor1: rgba($primaryColor4, 1) !default;
 $siteTitleHoverColor1: rgba($primaryColor2, 0.85) !default;
 $siteSloganColor: #777 !default;
-$siteBgColor: $primaryColor2;
-$siteTextColor: $primaryColor4;
+$siteBgColor: rgba($primaryColor2, 0.9);
+$siteTextColor: $primaryColor5;
+$siteHeaderColor: rgba($primaryColor2, 1);
+$siteHeaderScrolledColor: rgba($primaryColor2, 0.6);
 
 
 // KAE Colours
