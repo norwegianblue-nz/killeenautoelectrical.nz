@@ -47,20 +47,21 @@
 // }
 
 .nb_fixed-bg {
-    min-height: 65vh;
+    min-height: 30vh;
     background-position: 50% top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:#333;
+    background-color:#000;
 }
-#nb_fixed-bg0 {background-size: contain;} // Top image contain to show as much as poss of the "card""
-@media all and (min-width: 0px) {.nb_fixed-bg{}}
-@media all and (min-width: 480px) and (max-width: 767px) {.nb_fixed-bg{}}       
-@media all and (min-width: 768px) /*and (max-width: 1023px)*/ {
+
+@media all and (min-width: 0px) {.nb_fixed-bg{min-height:30vh;}}
+@media all and (min-width: 480px) and (max-width: 767px) {.nb_fixed-bg{min-height:35vh;}}       
+@media all and (min-width: 769px) /*and (max-width: 1023px)*/ {
 	.nb_fixed-bg, #nb_slideshow_bg{
-		height:1vh;
+		height:65vh;
 		background-attachment: fixed;
 	}
+        #nb_fixed-bg0 {background-size: contain;} // Top image contain to show as much as poss of the "card"
 }
 @media all and (min-width: 1024px) and (max-width: 1219px) {.nb_fixed-bg{}}
 @media all and (min-width: 1220px) {.nb_fixed-bg{}}

@@ -92,7 +92,7 @@
   }
 }
 
-@media all and (max-width: 560px) {
+@media all and (max-width: 740px) {
     #site-branding {
         .site-name {font-size: 30px;}
         #logo {
@@ -106,8 +106,8 @@
     #site-branding {
         .site-name {font-size: 25px;}
         #logo {
-            margin-right: 12px;
-            img {width:65px;}
+            margin-right: 5px;
+            img {width:60px;}
         }
         .site-slogan {display:none;}
     }

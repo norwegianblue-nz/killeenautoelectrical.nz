@@ -53,8 +53,14 @@ img {
 
 p , .field--type-text-with-summary {
   //color: rgba($primaryColor2, 1);
-  font-size:$generalTextSize;
-  margin: 0 0 1.5em 0;
+  font-size:$mobileTextSize;
+  margin: 0 0 1em 0;
+}
+@media all and (min-width: 769px) {
+    p , .field--type-text-with-summary {
+    font-size:$generalTextSize;
+    margin: 0 0 1.5em 0;
+    }
 }
 del {
   text-decoration: line-through;
