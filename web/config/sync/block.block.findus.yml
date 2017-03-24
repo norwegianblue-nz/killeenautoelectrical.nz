@@ -11,7 +11,7 @@ dependencies:
 id: findus
 theme: kae0
 region: preface_third
-weight: -7
+weight: -8
 provider: null
 plugin: 'block_content:e431354e-685b-46fb-b0b0-3bc7a83f6fb5'
 settings:

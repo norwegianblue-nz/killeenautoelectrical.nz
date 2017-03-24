@@ -153,3 +153,13 @@ p a, p a.link {  border-bottom: dotted 0.1em !important;
 img.image-style-avatar{
     border-radius: 100%;
 }
+
+//	Mini-contact form ///////
+.region-footer #block-contactblock > div {
+    //padding:28px 0 0;
+    clear:both;
+}
+.region-footer #block-contactblock .form-item input {width:100%;}
+.region-footer #block-contactblock label {color: #fff;}
+.region-footer #block-contactblock #edit-subject-wrapper label,
+.region-footer #block-contactblock #edit-message-wrapper label {display: none;}

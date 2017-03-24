@@ -9,7 +9,7 @@ dependencies:
 id: entityviewcontent_6
 theme: kae0
 region: '-1'
-weight: 0
+weight: -2
 provider: null
 plugin: 'entity_view:node'
 settings:

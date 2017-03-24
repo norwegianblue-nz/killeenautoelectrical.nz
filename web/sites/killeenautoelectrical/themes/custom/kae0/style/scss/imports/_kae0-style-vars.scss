@@ -3,9 +3,9 @@
 // Basic Color Variables 
 $primaryColor1: #000000;
 //$primaryColor2: #73ad51;
-$primaryColor2: #80cc28;
+$primaryColor2: #80cc28; //KilleenGreen
 //$primaryColor3: #0060c7;
-$primaryColor3: #66aad6;
+$primaryColor3: #66aad6; //KilleenBlue
 $primaryColor4: #FFFFFF;
 $primaryColor5: #0060c7;
 $mainMenuBgColor: #9A9A9A;
@@ -15,15 +15,15 @@ $buttonBgColor: #9A9A9A;
 $buttonFontColor: #1A1A1A;
 $buttonBorderColor: #1A1A1A;
 
-$siteTitleColor0: rgba($primaryColor3, 1) !default;
-$siteTitleHoverColor0: rgba($primaryColor3, 0.85) !default;
-$siteTitleColor1: rgba($primaryColor4, 1) !default;
+$siteTitleColor0: rgba($primaryColor4, 1) !default;
+$siteTitleHoverColor0: rgba($primaryColor4, 0.85) !default;
+$siteTitleColor1: rgba($primaryColor2, 1) !default;
 $siteTitleHoverColor1: rgba($primaryColor2, 0.85) !default;
 $siteSloganColor: #777 !default;
-$siteBgColor: rgba($primaryColor2, 0.9);
-$siteTextColor: $primaryColor5;
-$siteHeaderColor: rgba($primaryColor2, 1);
-$siteHeaderScrolledColor: rgba($primaryColor2, 0.6);
+$siteBgColor: rgba($primaryColor3, 0.9);
+$siteTextColor: $primaryColor1;
+$siteHeaderColor: rgba($primaryColor3, 1);
+$siteHeaderScrolledColor: rgba($primaryColor3, 0.6);
 
 
 // KAE Colours

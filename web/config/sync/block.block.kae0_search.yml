@@ -11,7 +11,7 @@ _core:
 id: kae0_search
 theme: kae0
 region: '-1'
-weight: -2
+weight: -3
 provider: null
 plugin: search_form_block
 settings:

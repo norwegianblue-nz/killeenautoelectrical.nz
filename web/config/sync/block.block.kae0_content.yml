@@ -11,7 +11,7 @@ _core:
 id: kae0_content
 theme: kae0
 region: '-1'
-weight: -6
+weight: -7
 provider: null
 plugin: system_main_block
 settings:

@@ -9,7 +9,7 @@ _core:
 id: kae0_local_actions
 theme: kae0
 region: '-1'
-weight: -3
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

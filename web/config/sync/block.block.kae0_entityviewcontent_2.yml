@@ -9,7 +9,7 @@ dependencies:
 id: kae0_entityviewcontent_2
 theme: kae0
 region: preface_second
-weight: -7
+weight: -8
 provider: null
 plugin: 'entity_view:node'
 settings:

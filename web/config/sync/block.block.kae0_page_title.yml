@@ -9,7 +9,7 @@ _core:
 id: kae0_page_title
 theme: kae0
 region: '-1'
-weight: -5
+weight: -6
 provider: null
 plugin: page_title_block
 settings:

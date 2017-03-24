@@ -1,6 +1,6 @@
 uuid: d3b4463a-6530-4d6b-99d0-56a028ddc8d8
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -12,8 +12,8 @@ _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
 id: kae0_footer
 theme: kae0
-region: footer
-weight: -7
+region: '-1'
+weight: 1
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
