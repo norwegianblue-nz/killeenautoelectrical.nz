@@ -33,7 +33,7 @@ body.toolbar-tray-open.toolbar-vertical.toolbar-fixed {
 
 a {
   text-decoration: none;
-  color: rgba($primaryColor2, 1);
+  color: rgba($primaryColor5, 1);
   @include kae0Transition(opacity, 0.25s, ease-in-out);
   &:hover {
     text-decoration: none;
@@ -41,7 +41,16 @@ a {
     color: rgba($primaryColor2, 0.85);
   }
 }
-
+p a, p a.link {  border-bottom: dotted 0.1em ;
+}
+a.telephone {border:none;}
+a.telephone::before {
+content: ". . .";
+background-image: url(/sites/killeenautoelectrical/themes/custom/kae0/images/phoneicon.png);
+background-repeat: no-repeat;
+background-size: contain;
+color: rgba(102, 170, 214, 0.9);
+}
 details {
   border: none;
 }
@@ -147,9 +156,6 @@ h6,
   padding: 10px 0 0;
   font-family:$defaultHeaderFont;
 }
-p a, p a.link {  border-bottom: dotted 0.1em !important;
-}
-
 img.image-style-avatar{
     border-radius: 100%;
 }

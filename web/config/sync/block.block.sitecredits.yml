@@ -1,0 +1,25 @@
+uuid: 5487ae7f-e489-4770-9c35-874ebdf8782c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2a034a3a-2626-48e6-b2c6-333e61845021'
+  module:
+    - block_content
+  theme:
+    - kae0
+id: sitecredits
+theme: kae0
+region: lastword
+weight: 0
+provider: null
+plugin: 'block_content:2a034a3a-2626-48e6-b2c6-333e61845021'
+settings:
+  id: 'block_content:2a034a3a-2626-48e6-b2c6-333e61845021'
+  label: 'Site Credits'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

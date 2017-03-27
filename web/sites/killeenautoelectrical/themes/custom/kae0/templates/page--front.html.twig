@@ -208,11 +208,12 @@
     {#
     /* Div for the background image which will "parallax scroll" */
      #}
+{#
     {% if bg_imageImageList.4 %}
     <section id="nb_fixed-bg4" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.4 }}");'>
     </section>
     {% endif %}
-
+#}
     <section id="content1-outer-wrapper" class="nb_scrolling outer-wrapper clearfix">
       <div id="main-layout" class="{{ region_classes.main }} inner-wrapper clearfix">
         
@@ -232,14 +233,12 @@
       </div><!-- /#main -->
     </section><!-- /#main-outer-wrapper -->
 
-    {#
-    /* Div for the background image which will "parallax scroll" */
-     #}
+{#
     {% if bg_imageImageList.5 %} 
     <section id="nb_fixed-bg5" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.5 }}");'>
     </section>
     {% endif %}
-
+#}
     {% if page.content2 %} 
     <section id="content2-outer-wrapper" class="nb_scrolling outer-wrapper clearfix">
         <div id="content2-layout" class=" {{ region_classes.content2 }} content2-layout inner-wrapper clearfix">
@@ -247,12 +246,12 @@
         </div>
     </section>
     {% endif %}
-
+{#
     {% if bg_imageImageList.6 %} 
     <section id="nb_fixed-bg5" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.5 }}");'>
     </section>
     {% endif %}
-
+#}
     {% if page.extras %}
     <section id="extras-outer-wrapper" class="nb_scrolling outer-wrapper clearfix">
       <div id="extras-layout" class="{{ region_classes.extras }} extras-layout inner-wrapper clearfix">
@@ -260,14 +259,12 @@
       </div>
     </section> 
     {% endif %}
-    {#
-    /* Div for the background image which will "parallax scroll" */
-     #}
+{#
     {% if bg_imageImageList.7 %}
     <section id="nb_fixed-bg6" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.6 }}");'>
     </section>
     {% endif %}
-
+#}
     {% if page.postscript_first %}
     <section id="postscript1-wrapper" class="nb_scrolling {{ region_classes.postscript }} outer-wrapper clearfix">
         <div id="postscript-first-layout" role="contentinfo" class="{{ region_classes.postscript_first }} postscript-first-layout inner-wrapper clearfix">
@@ -275,14 +272,12 @@
         </div>
     </section> <!-- /#postscript1-wrapper -->
     {% endif %}
-    {#
-    /* Div for the background image which will "parallax scroll" */
-     #}
+{#
     {% if bg_imageImageList.8 %}
     <section id="nb_fixed-bg7" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.7 }}");'>
     </section>
     {% endif %}
-    
+#}
     {% if page.postscript_second %}
     <section id="postscript2-wrapper" class="nb_scrolling {{ region_classes.postscript }} outer-wrapper clearfix">
         <div id="postscript-second-layout" role="contentinfo" class="{{ region_classes.postscript_second }} postscript-second-layout inner-wrapper clearfix">
@@ -290,14 +285,12 @@
         </div>
     </section> <!-- /#postscript2-wrapper -->
     {% endif %}
-    {#
-    /* Div for the background image which will "parallax scroll" */
-     #}
+{#
     {% if bg_imageImageList.9 %}
     <section id="nb_fixed-bg8" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.8 }}");'>
     </section>
     {% endif %}
-    
+#}
     {% if page.postscript_third %}
     <section id="postscript3-wrapper" class="nb_scrolling {{ region_classes.postscript }} outer-wrapper clearfix">
         <div id="postscript-third-layout" role="contentinfo" class="{{ region_classes.postscript_third }} postscript-third-layout inner-wrapper clearfix">
@@ -305,28 +298,24 @@
         </div>
     </section> <!-- /#postscript3-wrapper -->
     {% endif %}
-    {#
-    /* Div for the background image which will "parallax scroll" */
-     #}
+{#
     {% if bg_imageImageList.10 %}
     <section id="nb_fixed-bg9" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.9 }}");'>
     </section>
     {% endif %}
-    
+#}
     {% if page.postscript_fourth %}
     <section id="postscript4-wrapper" class="nb_scrolling {{ region_classes.postscript }} outer-wrapper clearfix">
         <div id="postscript-fourth-layout" role="contentinfo" class="{{ region_classes.postscript_fourth }} postscript-fourth-layout inner-wrapper clearfix">
             {{ page.postscript_fourth }}
     </section> <!-- /#postscript4-wrapper -->
     {% endif %}
-    {#
-    /* Div for the background image which will "parallax scroll" */
-     #}
+{#
     {% if bg_imageImageList.11 %}
     <section id="nb_fixed-bg10" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.10 }}");'>
     </section>
     {% endif %}
-    
+#}    
     {% if page.social %}
     <section id="social_media-wrapper" class="nb_scrolling  outer-wrapper clearfix">
         <div id="social-layout" class=" {{ region_classes.social }} social-layout inner-wrapper clearfix">
@@ -334,10 +323,12 @@
         </div>
     </section>
     {% endif %}
+{#    
     {% if bg_imageImageList.12 %}
     <section id="nb_fixed-bg11" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.11 }}");'>
     </section>
     {% endif %}
+#}
     {% if page.footer_header %}
         <section id="footer-header-outer-wrapper" class="outer-wrapper clearfix">
             <div id="footer-header-layout" role="contentinfo" class="{{ region_classes.footer_header }} footer-header-layout inner-wrapper clearfix">
@@ -345,16 +336,23 @@
             </div> <!-- /#footer-header -->
         </section> <!-- /#footer-header-outer-wrapper -->
     {% endif %}
+{#    
     {% if bg_imageImageList.13 %}
     <section id="nb_fixed-bg12" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.12 }}");'>
     </section>
     {% endif %}
+#}
     {% if page.footer %}
         <footer id="footer-outer-wrapper" class="outer-wrapper clearfix">
             <div id="footer-layout" role="contentinfo" class="{{ region_classes.footer }} inner-wrapper clearfix">
                 {{ page.footer }}
             </div> <!-- /#footer -->
         </footer> <!-- /#footer-outer-wrapper -->
+    {% endif %}
+    
+    {% if bg_imageImageList.4 %}
+    <section id="nb_fixed-bg4" class="nb_fixed-bg" style='background-image: url("{{ bg_imageImageList.4 }}");'>
+    </section>
     {% endif %}
    
     {% if page.copyright %}
