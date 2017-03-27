@@ -107,5 +107,10 @@ div.ds-2col > .group-right {@include parrotCols($thiscols:9, $nocols:12, $margin
 #block-findus .ds-2col > .group-right iframe{float:right;}
 }
 #block-findus {margin: 0 0 1.5em 0;}
-
+@media all and (max-width: 959px) {
+    #block-findus {display : none;}
+}
+@media all and (min-width: 960px) {
+    #block-locationmap, #block-contactdetails {display: none;}
+}
 .site-copyright p {font-size: 1em; margin: 0 0 1em 0;}

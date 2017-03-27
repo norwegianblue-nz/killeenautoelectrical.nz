@@ -1,0 +1,33 @@
+uuid: 8f694f41-04cb-4259-b189-6b70642c34b2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:09b47893-1e10-4f3c-881a-1ce1a03da014'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - kae0
+id: contactdetails
+theme: kae0
+region: preface_third
+weight: 0
+provider: null
+plugin: 'block_content:09b47893-1e10-4f3c-881a-1ce1a03da014'
+settings:
+  id: 'block_content:09b47893-1e10-4f3c-881a-1ce1a03da014'
+  label: 'Contact Details'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      homepage: homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

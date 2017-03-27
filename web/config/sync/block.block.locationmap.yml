@@ -1,0 +1,33 @@
+uuid: 5e676cdb-03df-4c6e-aa24-8c52746a3363
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d0137274-9e68-490a-b699-15ba9bf84c2b'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - kae0
+id: locationmap
+theme: kae0
+region: preface_third
+weight: 0
+provider: null
+plugin: 'block_content:d0137274-9e68-490a-b699-15ba9bf84c2b'
+settings:
+  id: 'block_content:d0137274-9e68-490a-b699-15ba9bf84c2b'
+  label: 'Location Map'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      homepage: homepage
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
